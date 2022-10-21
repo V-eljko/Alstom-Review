@@ -58,6 +58,8 @@ select ::-ms-expand {
     background: #5c6664;
     overflow: hidden;
     border-radius: .25em;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -73,6 +75,13 @@ h2 {
     color: white;
     border-radius: 25px;
     cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
